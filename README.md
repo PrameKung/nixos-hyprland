@@ -22,6 +22,8 @@ The flake selector is the name used after `#` in Nix commands. It does not need 
 - `home.nix` contains the Home Manager configuration for `pramekung`.
 - `hardware-configuration.nix` is intentionally empty in Git. Generate it on the target computer during installation.
 - `sample_files/` contains reference material only and is not imported by the active configuration.
+- `sample_minimum_files/` is a complete, portable minimum Hyprland desktop flake that can be copied to `/etc/nixos` for a rebuild.
+- `sample_full_satup_files/` is the complete Lenovo Legion/NVIDIA-specific desktop example.
 
 ## Before installation
 
